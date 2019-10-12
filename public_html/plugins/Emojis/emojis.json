@@ -1,0 +1,21 @@
+{
+    "name": "plugins/emojis",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Florian Hourdin",
+            "email": "florian.hourdin59300@gmail.com"
+        }
+    ],
+    "data_emojis": [
+        {
+            ":winkle:": "winkle.png",
+            ":emoji_base:": "base.png"
+        }
+    ],
+    "ExternalFiles": [
+        {
+            "EmojisPics": "{public}/assets/images/emojis/*"
+        }
+    ]
+}

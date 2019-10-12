@@ -1,0 +1,12 @@
+{
+    "name": "naatdev/araphp",
+    "type": "project",
+    "authors": [{
+        "name": "Florian Hourdin",
+        "email": "flo@florian-hourdin.fr"
+    }],
+    "ServerHost": "localhost",
+    "ServerPort": "8000",
+    "ServerDir": "public_html",
+    "AraPHPVersion": "0.1"
+}

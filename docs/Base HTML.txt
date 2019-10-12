@@ -1,0 +1,21 @@
+<?php
+$libPaths = (new \MyApp\Libs\Paths());
+$path_css = $libPaths->AppPath('css/');
+$path_root = $libPaths->RootPath();
+$page_path = $libPaths->AppPage('/');
+$current_page = $libPaths->CurrentPage();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{YOUR_TITLE}</title>
+    <link rel="stylesheet" type="text/css" href="<?= $path_css; ?>{YOUR_CSS_FILE}" media="screen" />
+    <link rel="shortcut icon" href="<?= $path_root; ?>favicon.ico" />
+</head>
+<body>
+    {YOUR_CONTENT}
+</body>
+</html>
